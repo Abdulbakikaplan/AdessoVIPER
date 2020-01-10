@@ -8,5 +8,5 @@ target 'AdessoVIPER' do
   # Pods for AdessoVIPER
     pod 'Alamofire', '~> 4.7.3'
     pod 'Kingfisher', '~> 4.10.0'
-    pod 'Moya', '~> 11.0.2' 
+    pod 'Moya', '~> 13.0'
 end

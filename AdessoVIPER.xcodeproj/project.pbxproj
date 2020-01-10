@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		F9B8FD8523C8DFCE003EB2B2 /* ListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD8323C8DFCE003EB2B2 /* ListVC.xib */; };
 		F9B8FD8923C8E168003EB2B2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */; };
 		F9B8FD8A23C8E168003EB2B2 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */; };
+		F9B8FD8D23C8E760003EB2B2 /* itunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD8C23C8E760003EB2B2 /* itunesAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F9B8FD8323C8DFCE003EB2B2 /* ListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVC.xib; sourceTree = "<group>"; };
 		F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		F9B8FD8C23C8E760003EB2B2 /* itunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itunesAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				556835F245F48B35E3DC51BF /* Pods-AdessoVIPER.debug.xcconfig */,
 				2B3E0C1FC4EBE0BF07840A0B /* Pods-AdessoVIPER.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -117,6 +118,7 @@
 		F9B8FD7923C8DCA8003EB2B2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8FD8B23C8E74B003EB2B2 /* ApiService */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -161,6 +163,14 @@
 				F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		F9B8FD8B23C8E74B003EB2B2 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8FD8C23C8E760003EB2B2 /* itunesAPI.swift */,
+			);
+			path = ApiService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +295,7 @@
 				F9B8FD6923C8DACA003EB2B2 /* ViewController.swift in Sources */,
 				F9B8FD6523C8DACA003EB2B2 /* AppDelegate.swift in Sources */,
 				F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */,
+				F9B8FD8D23C8E760003EB2B2 /* itunesAPI.swift in Sources */,
 				F9B8FD8923C8E168003EB2B2 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
