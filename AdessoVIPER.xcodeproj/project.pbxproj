@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74D23DF80E99E7199F0C2B48 /* Pods_AdessoVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF15D45A1ED4EDFDE07D512 /* Pods_AdessoVIPER.framework */; };
 		F9B8FD6523C8DACA003EB2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */; };
 		F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD6623C8DACA003EB2B2 /* SceneDelegate.swift */; };
 		F9B8FD6923C8DACA003EB2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD6823C8DACA003EB2B2 /* ViewController.swift */; };
@@ -14,9 +15,16 @@
 		F9B8FD6E23C8DACC003EB2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6D23C8DACC003EB2B2 /* Assets.xcassets */; };
 		F9B8FD7123C8DACC003EB2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6F23C8DACC003EB2B2 /* LaunchScreen.storyboard */; };
 		F9B8FD7E23C8DDCA003EB2B2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD7D23C8DDCA003EB2B2 /* BaseNavigationController.swift */; };
+		F9B8FD8423C8DFCE003EB2B2 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD8223C8DFCE003EB2B2 /* ListVC.swift */; };
+		F9B8FD8523C8DFCE003EB2B2 /* ListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD8323C8DFCE003EB2B2 /* ListVC.xib */; };
+		F9B8FD8923C8E168003EB2B2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */; };
+		F9B8FD8A23C8E168003EB2B2 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3E0C1FC4EBE0BF07840A0B /* Pods-AdessoVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdessoVIPER.release.xcconfig"; path = "Target Support Files/Pods-AdessoVIPER/Pods-AdessoVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		556835F245F48B35E3DC51BF /* Pods-AdessoVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdessoVIPER.debug.xcconfig"; path = "Target Support Files/Pods-AdessoVIPER/Pods-AdessoVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF15D45A1ED4EDFDE07D512 /* Pods_AdessoVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdessoVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B8FD6123C8DACA003EB2B2 /* AdessoVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdessoVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B8FD6623C8DACA003EB2B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		F9B8FD7023C8DACC003EB2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9B8FD7223C8DACC003EB2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B8FD7D23C8DDCA003EB2B2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		F9B8FD8223C8DFCE003EB2B2 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		F9B8FD8323C8DFCE003EB2B2 /* ListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVC.xib; sourceTree = "<group>"; };
+		F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D23DF80E99E7199F0C2B48 /* Pods_AdessoVIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27788CED80AF504AF8CAFEC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				556835F245F48B35E3DC51BF /* Pods-AdessoVIPER.debug.xcconfig */,
+				2B3E0C1FC4EBE0BF07840A0B /* Pods-AdessoVIPER.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFA4D1C983D93556C7BE099D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FF15D45A1ED4EDFDE07D512 /* Pods_AdessoVIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9B8FD5823C8DACA003EB2B2 = {
 			isa = PBXGroup;
 			children = (
 				F9B8FD6323C8DACA003EB2B2 /* AdessoVIPER */,
 				F9B8FD6223C8DACA003EB2B2 /* Products */,
+				27788CED80AF504AF8CAFEC6 /* Pods */,
+				EFA4D1C983D93556C7BE099D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +124,8 @@
 		F9B8FD7A23C8DCB0003EB2B2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8FD8623C8E14E003EB2B2 /* Cell */,
+				F9B8FD8123C8DFB2003EB2B2 /* ListVC */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -110,6 +145,24 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		F9B8FD8123C8DFB2003EB2B2 /* ListVC */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8FD8223C8DFCE003EB2B2 /* ListVC.swift */,
+				F9B8FD8323C8DFCE003EB2B2 /* ListVC.xib */,
+			);
+			path = ListVC;
+			sourceTree = "<group>";
+		};
+		F9B8FD8623C8E14E003EB2B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */,
+				F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9B8FD7523C8DACC003EB2B2 /* Build configuration list for PBXNativeTarget "AdessoVIPER" */;
 			buildPhases = (
+				CCC023AAB68BE730D26C23CC /* [CP] Check Pods Manifest.lock */,
 				F9B8FD5D23C8DACA003EB2B2 /* Sources */,
 				F9B8FD5E23C8DACA003EB2B2 /* Frameworks */,
 				F9B8FD5F23C8DACA003EB2B2 /* Resources */,
+				6E44404A9FF77CEC99187EA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,13 +223,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B8FD8523C8DFCE003EB2B2 /* ListVC.xib in Resources */,
 				F9B8FD7123C8DACC003EB2B2 /* LaunchScreen.storyboard in Resources */,
 				F9B8FD6E23C8DACC003EB2B2 /* Assets.xcassets in Resources */,
 				F9B8FD6C23C8DACA003EB2B2 /* Main.storyboard in Resources */,
+				F9B8FD8A23C8E168003EB2B2 /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E44404A9FF77CEC99187EA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdessoVIPER/Pods-AdessoVIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdessoVIPER/Pods-AdessoVIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdessoVIPER/Pods-AdessoVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC023AAB68BE730D26C23CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdessoVIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9B8FD5D23C8DACA003EB2B2 /* Sources */ = {
@@ -182,9 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B8FD7E23C8DDCA003EB2B2 /* BaseNavigationController.swift in Sources */,
+				F9B8FD8423C8DFCE003EB2B2 /* ListVC.swift in Sources */,
 				F9B8FD6923C8DACA003EB2B2 /* ViewController.swift in Sources */,
 				F9B8FD6523C8DACA003EB2B2 /* AppDelegate.swift in Sources */,
 				F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */,
+				F9B8FD8923C8E168003EB2B2 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +427,7 @@
 		};
 		F9B8FD7623C8DACC003EB2B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556835F245F48B35E3DC51BF /* Pods-AdessoVIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,6 +446,7 @@
 		};
 		F9B8FD7723C8DACC003EB2B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3E0C1FC4EBE0BF07840A0B /* Pods-AdessoVIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
