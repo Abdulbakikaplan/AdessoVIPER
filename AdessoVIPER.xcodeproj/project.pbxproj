@@ -20,6 +20,8 @@
 		F9B8FD8923C8E168003EB2B2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */; };
 		F9B8FD8A23C8E168003EB2B2 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */; };
 		F9B8FD8D23C8E760003EB2B2 /* itunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD8C23C8E760003EB2B2 /* itunesAPI.swift */; };
+		F9B8FD9123C8E893003EB2B2 /* SongListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD9023C8E893003EB2B2 /* SongListModel.swift */; };
+		F9B8FD9323C8E8B8003EB2B2 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD9223C8E8B8003EB2B2 /* Media.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		F9B8FD8723C8E168003EB2B2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		F9B8FD8823C8E168003EB2B2 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		F9B8FD8C23C8E760003EB2B2 /* itunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itunesAPI.swift; sourceTree = "<group>"; };
+		F9B8FD9023C8E893003EB2B2 /* SongListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListModel.swift; sourceTree = "<group>"; };
+		F9B8FD9223C8E8B8003EB2B2 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		F9B8FD7923C8DCA8003EB2B2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8FD8F23C8E873003EB2B2 /* Models */,
 				F9B8FD8B23C8E74B003EB2B2 /* ApiService */,
 			);
 			path = Network;
@@ -171,6 +176,15 @@
 				F9B8FD8C23C8E760003EB2B2 /* itunesAPI.swift */,
 			);
 			path = ApiService;
+			sourceTree = "<group>";
+		};
+		F9B8FD8F23C8E873003EB2B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8FD9023C8E893003EB2B2 /* SongListModel.swift */,
+				F9B8FD9223C8E8B8003EB2B2 /* Media.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,8 +306,10 @@
 			files = (
 				F9B8FD7E23C8DDCA003EB2B2 /* BaseNavigationController.swift in Sources */,
 				F9B8FD8423C8DFCE003EB2B2 /* ListVC.swift in Sources */,
+				F9B8FD9123C8E893003EB2B2 /* SongListModel.swift in Sources */,
 				F9B8FD6923C8DACA003EB2B2 /* ViewController.swift in Sources */,
 				F9B8FD6523C8DACA003EB2B2 /* AppDelegate.swift in Sources */,
+				F9B8FD9323C8E8B8003EB2B2 /* Media.swift in Sources */,
 				F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */,
 				F9B8FD8D23C8E760003EB2B2 /* itunesAPI.swift in Sources */,
 				F9B8FD8923C8E168003EB2B2 /* ListTableViewCell.swift in Sources */,
