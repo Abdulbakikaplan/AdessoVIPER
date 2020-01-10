@@ -56,6 +56,11 @@
 		F9B8FD6323C8DACA003EB2B2 /* AdessoVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8FD7C23C8DCBE003EB2B2 /* Base */,
+				F9B8FD7B23C8DCB5003EB2B2 /* App */,
+				F9B8FD7A23C8DCB0003EB2B2 /* Scenes */,
+				F9B8FD7923C8DCA8003EB2B2 /* Network */,
+				F9B8FD7823C8DC97003EB2B2 /* Resources */,
 				F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */,
 				F9B8FD6623C8DACA003EB2B2 /* SceneDelegate.swift */,
 				F9B8FD6823C8DACA003EB2B2 /* ViewController.swift */,
@@ -65,6 +70,41 @@
 				F9B8FD7223C8DACC003EB2B2 /* Info.plist */,
 			);
 			path = AdessoVIPER;
+			sourceTree = "<group>";
+		};
+		F9B8FD7823C8DC97003EB2B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9B8FD7923C8DCA8003EB2B2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F9B8FD7A23C8DCB0003EB2B2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F9B8FD7B23C8DCB5003EB2B2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F9B8FD7C23C8DCBE003EB2B2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
