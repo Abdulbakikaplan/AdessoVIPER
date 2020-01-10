@@ -13,6 +13,7 @@
 		F9B8FD6C23C8DACA003EB2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6A23C8DACA003EB2B2 /* Main.storyboard */; };
 		F9B8FD6E23C8DACC003EB2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6D23C8DACC003EB2B2 /* Assets.xcassets */; };
 		F9B8FD7123C8DACC003EB2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6F23C8DACC003EB2B2 /* LaunchScreen.storyboard */; };
+		F9B8FD7E23C8DDCA003EB2B2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD7D23C8DDCA003EB2B2 /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F9B8FD6D23C8DACC003EB2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B8FD7023C8DACC003EB2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9B8FD7223C8DACC003EB2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B8FD7D23C8DDCA003EB2B2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		F9B8FD7C23C8DCBE003EB2B2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8FD7D23C8DDCA003EB2B2 /* BaseNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B8FD7E23C8DDCA003EB2B2 /* BaseNavigationController.swift in Sources */,
 				F9B8FD6923C8DACA003EB2B2 /* ViewController.swift in Sources */,
 				F9B8FD6523C8DACA003EB2B2 /* AppDelegate.swift in Sources */,
 				F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */,
