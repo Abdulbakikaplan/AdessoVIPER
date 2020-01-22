@@ -20,10 +20,10 @@ final class ListRouter {
 
 extension ListRouter: ListRouterProtocol {
     func navigate(_ route: ListRoutes) {
-//        switch route {
-//        case .list(let searchModel):
-//            let listView = DetailBuilder.make(media: searchModel)
-//            view.show(listView, sender: nil)
+        switch route {
+        case .list(let searchModel):
+            let listView = DetailBuilder.make(media: searchModel)
+            view.show(listView, sender: nil)
         }
     }
-//}
+}
