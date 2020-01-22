@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Kingfisher
 
-class DetailVC: UIViewController {
+class DetailVC: UIViewController, trackDetailViewProtocol {
 
     @IBOutlet weak var detailImageView: UIImageView!
     @IBOutlet weak var detailTitleLabel: UILabel!
@@ -19,19 +20,13 @@ class DetailVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        presenter.load()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func update(_ presentation: Media) {
+        detailImageView.kf.setImage(with: URL(string: presentation.artworkUrl100 ?? ""))
+        detailTitleLabel.text = presentation.artistName
+        detailSubtitleLabel.text = presentation.trackName
     }
-    */
 
 }

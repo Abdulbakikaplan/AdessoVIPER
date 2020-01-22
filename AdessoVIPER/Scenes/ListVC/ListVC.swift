@@ -44,6 +44,7 @@ extension ListVC : UITableViewDelegate, UITableViewDataSource {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ListTableViewCell
         cell.configure(with: (medias?.results[indexPath.row])!)
+        cell.selectionStyle = .none
         return cell
     }
     
