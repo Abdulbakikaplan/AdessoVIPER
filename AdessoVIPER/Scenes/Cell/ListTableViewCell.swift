@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ListTableViewCell: UITableViewCell {
     @IBOutlet weak var listImageView: UIImageView!
@@ -17,10 +18,10 @@ class ListTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func configure(with media: Media) {
+        titleLabel.text = media.artistName
+        subTitleLabel.text = media.trackName
+        listImageView.kf.setImage(with: URL(string: media.artworkUrl100 ?? "") )
     }
-
+    
 }
