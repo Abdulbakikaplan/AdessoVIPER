@@ -11,8 +11,9 @@
 		F922F1CD23D82F9C0076BFCC /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F1CC23D82F9C0076BFCC /* ListVC.swift */; };
 		F922F1CF23D82FA60076BFCC /* ListVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F922F1CE23D82FA60076BFCC /* ListVC.storyboard */; };
 		F922F1D123D830280076BFCC /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F1D023D830280076BFCC /* ListTableViewCell.swift */; };
+		F922F1D723D8385A0076BFCC /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F1D623D8385A0076BFCC /* AppContainer.swift */; };
+		F922F1D923D838710076BFCC /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F1D823D838710076BFCC /* AppRouter.swift */; };
 		F9B8FD6523C8DACA003EB2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */; };
-		F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD6623C8DACA003EB2B2 /* SceneDelegate.swift */; };
 		F9B8FD6923C8DACA003EB2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8FD6823C8DACA003EB2B2 /* ViewController.swift */; };
 		F9B8FD6C23C8DACA003EB2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6A23C8DACA003EB2B2 /* Main.storyboard */; };
 		F9B8FD6E23C8DACC003EB2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B8FD6D23C8DACC003EB2B2 /* Assets.xcassets */; };
@@ -35,9 +36,10 @@
 		F922F1CC23D82F9C0076BFCC /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		F922F1CE23D82FA60076BFCC /* ListVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListVC.storyboard; sourceTree = "<group>"; };
 		F922F1D023D830280076BFCC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		F922F1D623D8385A0076BFCC /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		F922F1D823D838710076BFCC /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		F9B8FD6123C8DACA003EB2B2 /* AdessoVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdessoVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9B8FD6623C8DACA003EB2B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F9B8FD6823C8DACA003EB2B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9B8FD6B23C8DACA003EB2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B8FD6D23C8DACC003EB2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,8 +111,6 @@
 				F9B8FD7A23C8DCB0003EB2B2 /* Scenes */,
 				F9B8FD7923C8DCA8003EB2B2 /* Network */,
 				F9B8FD7823C8DC97003EB2B2 /* Resources */,
-				F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */,
-				F9B8FD6623C8DACA003EB2B2 /* SceneDelegate.swift */,
 				F9B8FD6823C8DACA003EB2B2 /* ViewController.swift */,
 				F9B8FD6A23C8DACA003EB2B2 /* Main.storyboard */,
 				F9B8FD6D23C8DACC003EB2B2 /* Assets.xcassets */,
@@ -148,6 +148,9 @@
 		F9B8FD7B23C8DCB5003EB2B2 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8FD6423C8DACA003EB2B2 /* AppDelegate.swift */,
+				F922F1D623D8385A0076BFCC /* AppContainer.swift */,
+				F922F1D823D838710076BFCC /* AppRouter.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			files = (
 				F922F1CD23D82F9C0076BFCC /* ListVC.swift in Sources */,
 				F9B8FD9723C8EA0C003EB2B2 /* ListPresenter.swift in Sources */,
+				F922F1D723D8385A0076BFCC /* AppContainer.swift in Sources */,
 				F9B8FD7E23C8DDCA003EB2B2 /* BaseNavigationController.swift in Sources */,
 				F9B8FD9123C8E893003EB2B2 /* SongListModel.swift in Sources */,
 				F9B8FD9E23C8EA88003EB2B2 /* ListRouter.swift in Sources */,
@@ -365,7 +369,7 @@
 				F922F1D123D830280076BFCC /* ListTableViewCell.swift in Sources */,
 				F9B8FDA123C8EAA8003EB2B2 /* ListContracts.swift in Sources */,
 				F9B8FD9323C8E8B8003EB2B2 /* Media.swift in Sources */,
-				F9B8FD6723C8DACA003EB2B2 /* SceneDelegate.swift in Sources */,
+				F922F1D923D838710076BFCC /* AppRouter.swift in Sources */,
 				F9B8FDA723C8EAE2003EB2B2 /* ListInteractor.swift in Sources */,
 				F9B8FD8D23C8E760003EB2B2 /* itunesAPI.swift in Sources */,
 				F9B8FDA423C8EAC3003EB2B2 /* ListBuilder.swift in Sources */,
