@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ListVC-->
+        <scene sceneID="gwm-Ng-L4z">
+            <objects>
+                <viewController storyboardIdentifier="ListViewController" id="WiQ-ur-Z8B" customClass="ListVC" customModule="AdessoVIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ap1-zV-aWp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lyt-NN-Yb1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="80" id="Nst-f7-D9T" customClass="ListTableViewCell" customModule="AdessoVIPER" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nst-f7-D9T" id="Co2-th-Sqz">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="frE-G4-GEr">
+                                                    <rect key="frame" x="20" y="10" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="1XW-yM-zCL"/>
+                                                        <constraint firstAttribute="width" constant="60" id="CbR-9Y-nCv"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHK-xw-Gd0">
+                                                    <rect key="frame" x="100" y="11" width="284" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6d-cu-jre">
+                                                    <rect key="frame" x="100" y="44" width="284" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="PHK-xw-Gd0" firstAttribute="top" secondItem="Co2-th-Sqz" secondAttribute="topMargin" id="7HW-TH-XWU"/>
+                                                <constraint firstItem="PHK-xw-Gd0" firstAttribute="leading" secondItem="frE-G4-GEr" secondAttribute="trailing" constant="20" id="e01-ND-3Md"/>
+                                                <constraint firstItem="frE-G4-GEr" firstAttribute="centerY" secondItem="Co2-th-Sqz" secondAttribute="centerY" id="pxV-hI-2sS"/>
+                                                <constraint firstItem="f6d-cu-jre" firstAttribute="leading" secondItem="frE-G4-GEr" secondAttribute="trailing" constant="20" id="spZ-vs-Ct3"/>
+                                                <constraint firstItem="f6d-cu-jre" firstAttribute="top" secondItem="PHK-xw-Gd0" secondAttribute="bottom" constant="15" id="tgh-79-Kfc"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="f6d-cu-jre" secondAttribute="trailing" constant="10" id="uAf-qz-Gal"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="PHK-xw-Gd0" secondAttribute="trailing" constant="10" id="vpx-MQ-Jm3"/>
+                                                <constraint firstItem="frE-G4-GEr" firstAttribute="leading" secondItem="Co2-th-Sqz" secondAttribute="leadingMargin" id="xcA-Vq-EO5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="listImageView" destination="frE-G4-GEr" id="fO2-WD-1qI"/>
+                                            <outlet property="subTitleLabel" destination="f6d-cu-jre" id="5hs-xs-nRS"/>
+                                            <outlet property="titleLabel" destination="PHK-xw-Gd0" id="kE6-LO-b3A"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lyt-NN-Yb1" firstAttribute="top" secondItem="hfe-V2-eLg" secondAttribute="top" id="141-C0-Wu9"/>
+                            <constraint firstItem="lyt-NN-Yb1" firstAttribute="leading" secondItem="hfe-V2-eLg" secondAttribute="leading" id="WCH-JP-hTF"/>
+                            <constraint firstItem="lyt-NN-Yb1" firstAttribute="trailing" secondItem="hfe-V2-eLg" secondAttribute="trailing" id="fG3-vV-d97"/>
+                            <constraint firstAttribute="bottom" secondItem="lyt-NN-Yb1" secondAttribute="bottom" id="qsD-es-u3L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hfe-V2-eLg"/>
+                    </view>
+                    <connections>
+                        <outlet property="listTableView" destination="lyt-NN-Yb1" id="6yH-NS-GAe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NDz-6n-1Po" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="471.01449275362324" y="-268.52678571428572"/>
+        </scene>
+    </scenes>
+</document>
